@@ -245,6 +245,10 @@
         text-align:left;
         margin-bottom: 50px;
     }
+
+    .logo img {
+      width: 150px; 
+    }
 }
 
 
