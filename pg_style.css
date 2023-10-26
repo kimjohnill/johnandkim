@@ -17,8 +17,8 @@ width:100%;
   position:fixed;
     width:85px;
     max-width:none;
-    margin-left: 49px;
-    margin-top:32px;
+    margin-left: 30px;
+    margin-top:30px;
 }
 
 .top_section {
@@ -131,10 +131,7 @@ video::-webkit-media-controls-panel {
    and (min-device-width: 320px) 
    and (max-device-width: 480px)
    and (-webkit-min-device-pixel-ratio: 2) {
- 
-    .logo img {
-        margin-left: 20px;
-    }
+
 
     .top_section {
       margin-top:100px;
