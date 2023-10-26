@@ -81,7 +81,7 @@
 
     .intro {
         margin-top:100px;
-        width:450px;
+        width:350px;
         font-family: 'Raleway', sans-serif;
         font-weight:500;
         font-size: 24pt;
@@ -95,9 +95,9 @@
       }
 
       .box {
-    margin-top:0px;
+    margin-top:50px;
     margin-right: 0px;
-    margin-left:50px;
+    margin-left:0px;
     height: 400px;
     width: 100%;
   }
