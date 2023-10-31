@@ -26,7 +26,7 @@
         <a href="http://example.com">
           <div class="box">
             <div class="image">
-              <img src="img/wip_1.jpg" alt="wip">
+              <img onload="fadeIn(this)" src="img/wip_1.jpg" alt="wip">
             </div>
             <div class="image-text">
                 Work in Progress Studio
@@ -41,7 +41,7 @@
         <a href="oleum.html">
         <div class="box">
           <div class="image">
-            <img src="img/oleum_1.jpg" alt="wire">
+            <img onload="fadeIn(this)" src="img/oleum_1.jpg" alt="wire">
           </div>
           <div class="image-text">
               OLEUM+ Oil Pulling
@@ -59,7 +59,7 @@
       <a href="bellypop.html">
         <div class="box">
           <div class="image">
-            <img src="img/bellypop_1.jpg" alt="bellypop">
+            <img onload="fadeIn(this)" src="img/bellypop_1.jpg" alt="bellypop">
           </div>
           <div class="image-text">
               Bellypop
@@ -76,7 +76,7 @@
       <a href="southkoreawallz.html">
         <div class="box">
           <div class="image">
-            <img src="img/oleum_1.jpg" alt="oleum">
+            <img onload="fadeIn(this)" src="img/powwow.png" alt="powwow">
           </div>
           <div class="image-text">
               Web
@@ -93,7 +93,7 @@
       <a href="animations.html">
         <div class="box">
           <div class="image">
-            <img src="gifs/ani_thumb_1.gif" alt="logo_ani">
+            <img onload="fadeIn(this)" src="gifs/ani_thumb_1.gif" alt="logo_ani">
           </div>
           <div class="image-text">
               Logo Animations
@@ -109,7 +109,7 @@
       <a href="http://example.com">
         <div class="box">
           <div class="image">
-            <img src="img/radius_1.jpg" alt="radius">
+            <img onload="fadeIn(this)" src="img/radius_1.jpg" alt="radius">
           </div>
           <div class="image-text">
               Cinetic Motion RADIUS
@@ -124,10 +124,10 @@
         <a href="http://example.com">
         <div class="box">
           <div class="image">
-            <img src="img/oleum_1.jpg" alt="wire">
+            <img onload="fadeIn(this)" src="img/oleum_1.jpg" alt="wire">
           </div>
           <div class="image-text">
-              Web
+              Ethera
             </div>
               <div class="sub-text">
                 Design<br>
@@ -140,7 +140,7 @@
       <a href="http://example.com">
         <div class="box">
           <div class="image">
-            <img src="img/oleum_1.jpg" alt="wire">
+            <img onload="fadeIn(this)" src="img/oleum_1.jpg" alt="wire">
           </div>
           <div class="image-text">
               Web
@@ -157,5 +157,11 @@
 <div class="footer">
 </div>
 
+
+<script>
+  window.fadeIn = function(obj) {
+    $(obj).fadeIn(1000);
+}
+</script>
 </body>
 </html>
