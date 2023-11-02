@@ -1,14 +1,10 @@
-window.fadeIn = function(obj) {
-    $(obj).fadeIn(1000);
-}
 
-var $images = $('#box img');
-var loaded_images_count = 0;
 
-$images.load(function(){
-    loaded_images_count++;
-
-    if (loaded_images_count == $images.length) {
-        $('#box').show();
+$('#box').imagesLoaded({
+    progress: function (isBroken, $allImages, $loadedImages, $brokenImages) {
+        console.log('ok: ' + $loadedImages.length + ', bad: ' + $brokenImages.length);
+    },
+    done: function ($images) {
+        $('#box').animate({'opacity':1}, 300);
     }
 });
