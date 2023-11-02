@@ -1,3 +1,3 @@
-
-    $(function(){$("#box").show("slow");
-                });
+window.fadeIn = function(obj) {
+    $(obj).fadeIn(1000);
+}
