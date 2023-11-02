@@ -9,6 +9,6 @@ $images.load(function(){
     loaded_images_count++;
 
     if (loaded_images_count == $images.length) {
-        $("div").show();
+        $('#box').show();
     }
 });
