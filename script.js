@@ -4,4 +4,4 @@ window.fadeIn = function(obj) {
 
 $(document).ready(function () {
     $('#box').css('opacity',0).animate({opacity:1}, 1000);
-});
+}
