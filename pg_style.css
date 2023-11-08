@@ -5,6 +5,61 @@ body {
   padding:0;
 }
 
+
+.logo-contain {
+  height: 35px;
+  position:fixed;
+  width: 100%;
+  border-bottom: .5px solid #171717;
+  display:inline;
+}
+
+
+.logo {
+  position:fixed;
+  font-family: 'Cormorant Garamond', serif;
+  font-style:italic;
+  font-size: 16pt;
+  margin-left:30px;
+  margin-top:5px;
+}
+
+.logo a{
+  text-decoration:none;
+  color:#171717;
+}
+
+.logo-center {
+  font-size: 10pt;
+  font-family: 'Cormorant Garamond', serif;
+  text-align:center;
+  margin-top:-3px;
+}
+
+.logo-right {
+  font-family: 'Cormorant Garamond', serif;
+  font-style:italic;
+  font-size: 14pt;
+  margin-top:-52px;
+  float: right;
+  margin-right:30px;
+}
+
+.logo-right a{
+  text-decoration:none;
+  color:#171717;
+}
+
+.logo img {
+  position:fixed;
+    width:85px;
+    max-width:none;
+    margin-left: 30px;
+    margin-top:30px;
+}
+
+
+
 .page_container {
 width:100%;
 }
@@ -29,6 +84,7 @@ width:100%;
   margin-top:50px;
 }
 .description {
+  width:40%;
   color:#171717;
   font-size: 1.05em;
   margin-left:200px;
@@ -41,7 +97,7 @@ width:100%;
 .description h1 {
   color:#121513;
   font-family: 'DM Serif Display', serif;
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom:15px;
 }
 
@@ -55,8 +111,20 @@ width:100%;
   margin-left:200px;
   margin-bottom: 100px;
   font-family: 'Open Sans', sans-serif;
-  font-weight:300;
+  font-weight:400;
   font-size:10pt;
+  line-height: 1.6;
+}
+
+.view-site {
+  margin-left:200px;
+  }
+
+.view-site a{
+color:#171717;
+font-family: 'Cormorant Garamond', serif;
+font-weight:100;
+font-style:italic;
 }
 
 video {
@@ -114,7 +182,7 @@ video::-webkit-media-controls-panel {
   }
 
   .image_radius img{
-    width:80%;
+    width:100%;
     margin-bottom: 100px;
   }
 
@@ -140,6 +208,10 @@ video::-webkit-media-controls-panel {
     width: 60%;
   }
 
+  .img_set_web img{
+    width: 80%;
+  }
+
 .grid img {
   width:30%;
 }
@@ -150,8 +222,16 @@ video::-webkit-media-controls-panel {
 
   .footer {
     width:100%;
-    height:200px;
+    height:50px;
   }
+
+  .logo-bottom {
+    font-size: 10pt;
+  font-family: 'Cormorant Garamond', serif;
+  text-align:center;
+    margin-top:200px;
+  }
+
 
 
    /* iPhone */
@@ -184,7 +264,7 @@ video::-webkit-media-controls-panel {
        }
  
        .description p{
-        font-size:1.2em;
+        font-size:1em;
          margin-left:0px;
          margin-right:20px;
        }
@@ -193,6 +273,7 @@ video::-webkit-media-controls-panel {
         font-size:1em;
          margin-left:30px;
          margin-right:20px;
+         width:80%;
        }
 
        .credits {
@@ -200,6 +281,10 @@ video::-webkit-media-controls-panel {
         margin-bottom: 80px;
         font-size:10pt;
       }
+
+      .view-site {
+        margin-left:30px;
+        }
 
 
       video {
@@ -251,8 +336,22 @@ video::-webkit-media-controls-panel {
           width:80%;
         }
 
+        .img_set_web img{
+          width: 90%;
+        }
+
         .grid img {
           
           width:80%;
+        }
+        .logo-center {
+          display:none;
+        }
+        .logo-right {
+          margin-top: -12px;
+          margin-right: 10px;
+        }
+        .logo-left {
+          margin-right: 10px;
         }
    }

@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script src="script.js" type="text/JavaScript" defer></script>
+<script src="script.js" type="text/JavaScript" defer></script>
 <head>
 <link rel="stylesheet" href="style.css">
 <title>Page Title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js"></script>
-
-
-
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="header">
-        <div class="logo">
-        <img src="img/site_logo.png" alt="logo">
+  <div class="header">
+    <div class="logo-contain">
+      <div class="logo">
+        <a href="index.html">JohnKim</a>
+      </div>
+      <div class="logo-center">
+        <p>Copyright © 2023</p>
+        </div>
+
+      <div class="logo-right" style="float:right;">
+        <p><a href="mailto:john@johnandkim.me">john@johnandkim.me</a></p>
         </div>
     </div>
+  </div>
+
+
 
     <div class="page_container">
     <section class="intro">
@@ -29,41 +37,42 @@
 
     <section class="main">
         <a href="http://example.com">
-          <div id="box">
+          <div class="box">
             <div class="image">
-              <img onload="fadeIn(this)"  style="display:none;" src="img/wip_1.jpg" alt="wip">
+              <img id="preload" onload="fadeIn(this)" src="img/wip_1.jpg" alt="wip">
             </div>
             <div class="image-text">
                 Work in Progress Studio
               </div>
                 <div class="sub-text">
-                  Art Director<br>
-                  Graphic Design
+                  Art Direction<br>
+                  Design
                 </div>
           </div>
         </a>
     
         <a href="oleum.html">
-        <div id="box">
+        <div class="box">
           <div class="image">
-            <img onload="fadeIn(this)"  style="display:none;" src="img/oleum_1.jpg" alt="wire">
+            <img id="preload" onload="fadeIn(this)" src="img/oleum_1.jpg" alt="wire">
           </div>
           <div class="image-text">
               OLEUM+ Oil Pulling
             </div>
               <div class="sub-text">
                 Art Direction<br>
-                    Motion
+                Motion
               </div>
+          
         </div>
       </a>
     
     
       
       <a href="bellypop.html">
-        <div id="box">
+        <div class="box">
           <div class="image">
-            <img onload="fadeIn(this)"  style="display:none;" src="img/bellypop_1.jpg" alt="bellypop" >
+            <img id="preload" onload="fadeIn(this)" src="img/bellypop.jpg" alt="bellypop">
           </div>
           <div class="image-text">
               Bellypop
@@ -71,45 +80,47 @@
               <div class="sub-text">
                 Motion<br>
                 Video Edit<br>
-                Branding
               </div>
+          
         </div>
       </a>
     
-      <a href="southkoreawallz.html">
-        <div id="box">
+      <a href="powwow.html">
+        <div class="box">
           <div class="image">
-            <img onload="fadeIn(this)"  style="display:none;" src="img/powwow.png" alt="powwow">
+            <img id="preload" onload="fadeIn(this)" src="img/powwow.png" alt="powwow">
           </div>
           <div class="image-text">
-              Web
+              POW! WOW! Korea
             </div>
               <div class="sub-text">
                 Design<br>
-                Front/Back End
               </div>
+          
         </div>
       </a>
     
     
       <a href="animations.html">
-        <div id="box">
+        <div class="box">
           <div class="image">
-            <img onload="fadeIn(this)"  style="display:none;" src="gifs/ani_thumb_1.gif" alt="logo_ani">
+            <img id="preload" onload="fadeIn(this)" src="gifs/ani_thumb_1.gif" alt="logo_ani">
           </div>
           <div class="image-text">
               Logo Animations
             </div>
               <div class="sub-text">
                 Motion
+                
               </div>
+          
         </div>
       </a>
     
       <a href="radius.html">
-        <div id="box">
+        <div class="box">
           <div class="image">
-            <img onload="fadeIn(this)"  style="display:none;" src="img/radius_1.jpg" alt="radius">
+            <img id="preload" onload="fadeIn(this)" src="img/radius_1.jpg" alt="radius">
           </div>
           <div class="image-text">
               Cinetic Motion RADIUS
@@ -117,46 +128,65 @@
               <div class="sub-text">
                 Product Design
               </div>
+          
         </div>
       </a>
     
         <a href="http://example.com">
-        <div id="box">
+        <div class="box">
           <div class="image">
-            <img onload="fadeIn(this)"  style="display:none;" src="img/oleum_1.jpg" alt="wire">
+            <img id="preload" onload="fadeIn(this)" src="img/ethera.jpg" alt="wire">
           </div>
           <div class="image-text">
               Ethera
             </div>
               <div class="sub-text">
-                Design<br>
-                Front/Back End
+                UX/UI Design
               </div>
+          
         </div>
       </a>
     
-      <a href="http://example.com">
-        <div id="box">
+      <a href="suitman.html">
+        <div class="box">
           <div class="image">
-            <img onload="fadeIn(this)"  style="display:none;" src="img/oleum_1.jpg" alt="wire">
+            <img id="preload" onload="fadeIn(this)" src="img/suitman.jpg" alt="wire">
           </div>
           <div class="image-text">
-              Web
+              Suitman
             </div>
               <div class="sub-text">
-                Design<br>
-                Front/Back End
+                Web Design<br>
+                Development
               </div>
         </div>
       </a>
+
+      <a href="kimjungman.html">
+        <div class="box">
+          <div class="image">
+            <img id="preload" onload="fadeIn(this)" src="img/kimjungman.jpg" alt="wire">
+          </div>
+          <div class="image-text">
+            Kim Jung Man
+            </div>
+              <div class="sub-text">
+                Web Design<br>
+                Development
+              </div>
+        </div>
+      </a>
+
     </div>
 </section>
 </div>
 <div class="footer">
+  <div class="logo-bottom">
+    <p>Copyright © 2023</p>
+    </div>
 </div>
 
 
 
 </body>
-
 </html>
