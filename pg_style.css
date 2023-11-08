@@ -160,7 +160,16 @@ video::-webkit-media-controls-panel {
    and (max-device-width: 480px)
    and (-webkit-min-device-pixel-ratio: 2) {
 
+.description h1 {
+  line-height:1.2;
+}
 
+.description h2 {
+  color:#121513;
+  font-family: 'DM Serif Display', serif;
+  margin-bottom:15px;
+}
+     
     .top_section {
       margin-top:100px;
     }
