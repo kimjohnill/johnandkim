@@ -45,6 +45,12 @@ width:100%;
   margin-bottom:15px;
 }
 
+.description h2 {
+  color:#121513;
+  font-family: 'DM Serif Display', serif;
+  margin-bottom:15px;
+}
+
 .credits {
   margin-left:200px;
   margin-bottom: 100px;
