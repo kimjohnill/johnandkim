@@ -19,9 +19,9 @@ body {
   position:fixed;
   font-family: 'Cormorant Garamond', serif;
   font-style:italic;
-  font-size: 16pt;
+  font-size: 14pt;
   margin-left:30px;
-  margin-top:5px;
+  margin-top:7px;
 }
 
 .logo a{
@@ -183,6 +183,19 @@ video::-webkit-media-controls-panel {
 
   .image_radius img{
     width:100%;
+    margin-bottom: 100px;
+  }
+
+  .image_ethera img{
+    width:60%;
+  }
+
+  .image_ethera_bg{
+    width:100%;
+    background-image: linear-gradient(#f7f6f5, #e2dac3,#f7f6f5);
+  }
+  .image_ethera_wbg img{
+    width:80%;
     margin-bottom: 100px;
   }
 
