@@ -186,6 +186,11 @@ video::-webkit-media-controls-panel {
     margin-bottom: 100px;
   }
 
+  .image_wip img{
+    width:80%;
+    margin-bottom: 100px;
+  }
+
   .image_ethera img{
     width:60%;
   }
@@ -245,6 +250,9 @@ video::-webkit-media-controls-panel {
     margin-top:200px;
   }
 
+.logos_container {
+  text-align:center;
+}
 
 
    /* iPhone */
