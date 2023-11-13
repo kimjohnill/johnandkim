@@ -160,6 +160,7 @@ video::-webkit-media-controls-panel {
   
   #container {
     display: flex;
+    align-items: flex-start; /* new */
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
