@@ -173,7 +173,7 @@ body {
     width: 100%;
   }
   .logo a{
-    margin-left:25px;
+    margin-left:0px;
   }
   .logo-center {
     display:none;
@@ -183,6 +183,6 @@ body {
     margin-right: 25px;
   }
   .logo {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   }
