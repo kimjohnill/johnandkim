@@ -173,14 +173,14 @@ body {
     width: 100%;
   }
   .logo a{
-    margin-left:0px;
+    margin-left:20px;
   }
   .logo-center {
     display:none;
   }
   .logo-right {
     margin-top: -12px;
-    margin-right: 25px;
+    margin-right: 20px;
   }
   .logo {
     margin-left: 0px;
